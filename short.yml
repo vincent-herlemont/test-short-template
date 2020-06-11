@@ -1,0 +1,9 @@
+---
+setups:
+  - name: setup_1
+    public_env_dir: "./env/"
+    file: run.sh
+    array_vars:
+      all: ".*"
+    vars:
+      - SETUP_NAME
